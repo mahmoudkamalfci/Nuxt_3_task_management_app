@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   $development: {
     app: {
       head: {
-        title: "DEV",
+        title: process.env.WEBSITE_TITLE,
       },
     },
   },

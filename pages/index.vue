@@ -1,8 +1,13 @@
 <template>
   <div>
-    <h1>Welcome to the homepage</h1>
-    <AppAlert>
-      This is an auto-imported component
-    </AppAlert>
+    <p>Count: {{ count }}</p>
+    <button @click="increment">
+      Increment
+    </button>
   </div>
 </template>
+
+<script setup lang="ts">
+
+const { count, increment } = useTest()
+</script>

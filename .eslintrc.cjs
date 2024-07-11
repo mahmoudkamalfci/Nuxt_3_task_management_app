@@ -163,4 +163,11 @@ module.exports = {
     '@typescript-eslint',
     'import',
   ],
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+    },
+  },
 }
