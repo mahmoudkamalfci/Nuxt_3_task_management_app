@@ -12,9 +12,4 @@
     "eslint.options": {
       "extensions": [".js", ".jsx", ".ts", ".tsx", ".vue"]
     },
-    // Disable auto imports when accepting suggestions in JavaScript
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  
-  // Disable auto imports when accepting suggestions in TypeScript
-  "typescript.updateImportsOnFileMove.enabled": "never"
   }

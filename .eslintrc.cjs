@@ -76,7 +76,7 @@ module.exports = {
     // Plugin: eslint-plugin-import
     // For omitting extension for ts files
     'import/extensions': [
-      '',
+      'off',
       'ignorePackages',
       {
         js: 'never',
