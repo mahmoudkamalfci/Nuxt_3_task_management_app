@@ -8,6 +8,5 @@
 </template>
 
 <script setup lang="ts">
-
 const { count, increment } = useTest()
 </script>

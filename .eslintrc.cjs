@@ -76,7 +76,7 @@ module.exports = {
     // Plugin: eslint-plugin-import
     // For omitting extension for ts files
     'import/extensions': [
-      'error',
+      '',
       'ignorePackages',
       {
         js: 'never',
@@ -151,6 +151,7 @@ module.exports = {
     //   },
     // }],
   },
+
   ignorePatterns: ['dist', 'node_modules', 'build', 'coverage', 'docs', 'test'],
   overrides: [
     {
@@ -163,11 +164,4 @@ module.exports = {
     '@typescript-eslint',
     'import',
   ],
-
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./*"],
-    },
-  },
 }
